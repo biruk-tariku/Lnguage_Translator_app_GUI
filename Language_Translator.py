@@ -5,7 +5,7 @@ from googletrans import Translator, LANGUAGES
 root = Tk()
 root.geometry("1100x320")
 root.resizable(0,0)
-root['bg']= 'black'
+root['bg']= 'gray'
 
 root.title( 'Language translator by BURA')
 Label(root, text= "Language Translator", font= "Arial 20 bold").pack()
@@ -28,6 +28,7 @@ language = list(LANGUAGES.values())
 dest_lang = ttk.Combobox(root, values=language, width= 22)
 dest_lang.place(x=130, y=160)
 dest_lang.set("choose Language")
+
 
 def Translate():
     translator = Translator()
