@@ -5,7 +5,6 @@ from googletrans import Translator, LANGUAGES
 root = Tk()
 root.geometry("1100x320")
 root.resizable(0,0)
-# root.iconbitmap('logo simpli.ico')
 root['bg']= 'black'
 
 root.title( 'Language translator by BURA')
