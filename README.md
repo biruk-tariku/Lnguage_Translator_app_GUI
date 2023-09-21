@@ -14,4 +14,4 @@ Here's a brief overview of what the code does:
 
 5. The GUI is launched using `root.mainloop()`.
 
-If you have installed the required dependencies (`tkinter` and `googletrans`) and you have an active internet connection, this code should work without any issues. Simply run it, and you'll have a basic language translation application.
+If you have installed the required dependencies (`tkinter` and `googletrans`) and you have an active internet connection, this code should work without any issues. Simply run it, and you'll have a basic language translation  application.
