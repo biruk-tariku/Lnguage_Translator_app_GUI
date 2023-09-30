@@ -26,7 +26,6 @@ dest_lang = ttk.Combobox(root, values=language, width= 22)
 dest_lang.place(x=130, y=160)
 dest_lang.set("choose Language")
 
-
 def Translate():
     translator = Translator()
     translated = translator.translate(text = input_text.get(), dest = dest_lang.get())
