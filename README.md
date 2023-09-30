@@ -1,5 +1,6 @@
 # Lnguage_Translator-app_GUI
 
+
 its a basic text_translation application using tkinter and the `googletrans` library. When you run this code, it will create a graphical user interface (GUI) that allows you to enter text, select a destination language, and then translate the text into the selected language.
 
 Here's a brief overview of what the code does:
