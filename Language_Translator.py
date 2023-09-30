@@ -10,9 +10,7 @@ root['bg']= 'gray'
 root.title( 'Language translator by BURA')
 Label(root, text= "Language Translator", font= "Arial 20 bold").pack()
 
-
 Label(root,text= "Enter Text", font="Arial 13 bold", bg = "White smoke").place(x=168, y=99)
-
 
 input_text = Entry(root, width=60)
 input_text.place(x=30, y=130)
