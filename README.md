@@ -5,6 +5,7 @@ its a basic text_translation application using tkinter and the `googletrans` lib
 
 Here's a brief overview of what the code does:
 
+
 1. It creates a tkinter window (`root`) with specific dimensions, a black background and a title.
 
 2. It adds labels, input fields, and a button to the GUI to allow the user to input text, select a destination language, and trigger the translation.
